@@ -1,4 +1,4 @@
-# Documentation Example Project Setup
+# Deploying Sphinx documentation to GitHub Pages
 
 ## Goal
 Host source code along with documentation sources on a public Git repository.
@@ -10,20 +10,12 @@ This setup ensures that the documentation is always up-to-date with the latest c
 
 # Documentation Example Project Setup
 
-## Goal
-Host source code along with documentation sources on a public Git repository. 
-
-Each time changes are pushed to the repository, a GitHub Action triggers to rebuild the documentation, which is then pushed to a separate branch called ‘gh-pages’.
-
-This setup ensures that the documentation is always up-to-date with the latest changes in the source code.
-
-# Documentation Example Project Setup
-
 This guide walks you through creating a GitHub repository for a documentation project using Sphinx, and deploying it using GitHub Pages and GitHub Actions.
 
 ## Step 1: Create a New Repository from a Template
 
-1. Go to the **documentation-example** project template on GitHub.
+1. Go to the [**documentation-example**](https://github.com/new?template_name=documentation-example&template_owner=coderefinery) project template on GitHub.
+2. Create a copy in your namespace and name it `documentation-example`.
 2. Create a copy in your namespace and name it `documentation-example`.
 3. Ensure to uncheck "Include all branches".
 4. Click on **Create a repository**.
